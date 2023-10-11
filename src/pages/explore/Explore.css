@@ -1,0 +1,20 @@
+.info {
+    display: none;
+    position: absolute;
+    /* top: 30%; */
+    /* left: 5%; */
+    padding-top: 120px;
+    padding-left: 100px;
+    border: 1px solid #ccc;
+    /* background-color: #59595981; */
+    color: #ffffff;
+  }
+
+  .cont{
+      position: relative;
+      
+    }
+  .cont:hover .info {
+      display: block;
+      background-color: #59595981;
+    }

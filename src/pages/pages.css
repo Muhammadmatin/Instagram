@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.gradient{
+  background: linear-gradient(90deg, red, fuchsia);
+}
+.index{
+  z-index: 3;
+}

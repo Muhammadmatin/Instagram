@@ -1,0 +1,88 @@
+.aa{
+    z-index: 1;
+}
+.ab{
+    z-index: 2;
+}
+.bb{
+  z-index: 4;
+}
+.a{
+  /* color: ; */
+    color: red;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+  }
+  .modal-content{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    width: 600px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+    position: sticky;
+    z-index: 2;
+
+  }
+  
+  .cancel{
+    color: red;
+    cursor: pointer;
+    float: right;
+    transform: scale(1.3);
+    font-size: 30px;
+    z-index: 1;
+  }
+
+  .zxc{
+    object-fit: cover;
+  }
+  .e{
+    /* background: rgba(0,0, 0, 0.6); */
+    z-index: 1;
+    width: 80%;
+  
+ 
+  }
+  .pp{
+    z-index: 10;
+  }
+  .pp1{
+    z-index: 10;
+  }
+
+
+  .info {
+    display: none;
+    position: absolute;
+    /* top: 30%; */
+    /* left: 5%; */
+    padding-top: 120px;
+    padding-left: 100px;
+    border: 1px solid #ccc;
+    /* background-color: #59595981; */
+    color: #ffffff;
+  }
+
+  .cont{
+      position: relative;
+      
+    }
+  .cont:hover .info {
+      display: block;
+      background-color: #59595981;
+    }
+
+ .modalstory{
+background-color: black;
+color: white;
+ }
